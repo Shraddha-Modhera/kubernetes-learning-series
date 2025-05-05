@@ -2624,8 +2624,8 @@
     {
       "id": "1haTHeKXxhAJWOEKXnzhT",
       "type": "text",
-      "x": 358.978521962971,
-      "y": -231.71728379166575,
+      "x": 357.978521962971,
+      "y": -233.71728379166575,
       "width": 957.4290974934893,
       "height": 665,
       "angle": 0,
@@ -2641,8 +2641,8 @@
       "index": "b3T",
       "roundness": null,
       "seed": 88992873,
-      "version": 196,
-      "versionNonce": 712159499,
+      "version": 210,
+      "versionNonce": 359311857,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2658,7 +2658,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1746377539319,
+      "updated": 1746445071328,
       "link": null,
       "locked": false,
       "text": "kind: Job\napiVersion: batch/v1\nmetadata:\n  name: demo-job\n  namespace: nginx\nspec:\n  completions: 1\n  parallelism: 1\n  template:\n    metadata:\n      name: demo-job-pod\n      labels: \n        app: batch-task\n    spec:\n      containers:\n      - name: batch-container\n        image: busybox:latest\n        command: [\"sh\", \"-c\", \"echo Hello world && sleep 10\"]\n      restartPolicy: Never",
@@ -2674,10 +2674,10 @@
     {
       "id": "13CmV-WQStGuggZ1gy3BP",
       "type": "arrow",
-      "x": 691.8970403524415,
-      "y": -181.73111729195597,
-      "width": 108.21831889339978,
-      "height": 2.1358745589824935,
+      "x": 693.1560106315503,
+      "y": -177.72310187005013,
+      "width": 106.959348614291,
+      "height": 6.143889980888332,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "#b2f2bb",
@@ -2693,11 +2693,11 @@
         "type": 2
       },
       "seed": 309324393,
-      "version": 99,
-      "versionNonce": 1481284677,
+      "version": 142,
+      "versionNonce": 2141950385,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1746377557333,
+      "updated": 1746445089905,
       "link": null,
       "locked": false,
       "points": [
@@ -2706,14 +2706,14 @@
           0
         ],
         [
-          108.21831889339978,
-          -2.1358745589824935
+          106.959348614291,
+          -6.143889980888332
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "1haTHeKXxhAJWOEKXnzhT",
-        "focus": -0.834603964145517,
+        "focus": -0.790978759316416,
         "gap": 14
       },
       "endBinding": null,
@@ -2778,8 +2778,8 @@
       "index": "b3X",
       "roundness": null,
       "seed": 1470032777,
-      "version": 286,
-      "versionNonce": 1557111499,
+      "version": 288,
+      "versionNonce": 1395246129,
       "isDeleted": false,
       "boundElements": [
         {
@@ -2787,7 +2787,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1746377536785,
+      "updated": 1746445062382,
       "link": null,
       "locked": false,
       "text": "how many time you wanna run this job",
@@ -2986,10 +2986,10 @@
     {
       "id": "mq2jE1xnZnk78xlYb869k",
       "type": "arrow",
-      "x": 781.2722948906235,
-      "y": 417.0846155503356,
-      "width": 92.88300297384103,
-      "height": 0.5276491607283447,
+      "x": 808.0095643655468,
+      "y": 415.19564535638904,
+      "width": 66.1457334989177,
+      "height": 1.3613210332182462,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "#b2f2bb",
@@ -3005,11 +3005,11 @@
         "type": 2
       },
       "seed": 1823946793,
-      "version": 97,
-      "versionNonce": 456892933,
+      "version": 167,
+      "versionNonce": 1057871039,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1746377547982,
+      "updated": 1746445078728,
       "link": null,
       "locked": false,
       "points": [
@@ -3018,15 +3018,15 @@
           0
         ],
         [
-          92.88300297384103,
-          -0.5276491607283447
+          66.1457334989177,
+          1.3613210332182462
         ]
       ],
       "lastCommittedPoint": null,
       "startBinding": {
         "elementId": "1haTHeKXxhAJWOEKXnzhT",
-        "focus": 0.9581566040660007,
-        "gap": 16.198100657998623
+        "focus": 0.92595639582779,
+        "gap": 16.087070851945214
       },
       "endBinding": null,
       "startArrowhead": null,
@@ -4872,10 +4872,10 @@
     {
       "id": "yf5sQP-uTL1CrBBFuRzuV",
       "type": "arrow",
-      "x": 631.4317570887247,
-      "y": -8.767235207945408,
-      "width": 111.95937756607361,
-      "height": 9.463110371980235,
+      "x": 624.6930707097156,
+      "y": -0.21728379166574996,
+      "width": 118.69806394508271,
+      "height": 17.709070099811285,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "#b2f2bb",
@@ -4891,11 +4891,11 @@
         "type": 2
       },
       "seed": 989032837,
-      "version": 390,
-      "versionNonce": 21703883,
+      "version": 446,
+      "versionNonce": 358528305,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1746377547982,
+      "updated": 1746445086493,
       "link": null,
       "locked": false,
       "points": [
@@ -4904,12 +4904,12 @@
           0
         ],
         [
-          73.09551881151401,
-          -9.15911868353163
+          79.83420519052311,
+          -17.709070099811285
         ],
         [
-          111.95937756607361,
-          0.3039916884486047
+          118.69806394508271,
+          -8.24595972783105
         ]
       ],
       "lastCommittedPoint": null,
@@ -4920,7 +4920,7 @@
       },
       "endBinding": {
         "elementId": "WPxe1JA26uyPapk9RV_-1",
-        "focus": -0.782004250608582,
+        "focus": -0.7820042506085827,
         "gap": 9.45131606239704
       },
       "startArrowhead": null,
